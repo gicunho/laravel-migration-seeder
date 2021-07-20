@@ -49,6 +49,7 @@ class VoyageController extends Controller
     public function show(Voyage $voyage)
     {
         //
+        return view('trips/show', compact('voyage'));
     }
 
     /**

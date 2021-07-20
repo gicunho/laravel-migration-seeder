@@ -10,6 +10,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
 
         <!-- Styles -->
+        <link rel="stylesheet" href="{{ asset('/css/app.css')}} ">
+
+        <!-- Styles -->
         <style>
             html, body {
                 background-color: #fff;
@@ -64,7 +67,7 @@
         </style>
     </head>
     <body>
-        <div class="conteiner">
+        <div class="container">
             @yield('content')
         </div>
     </body>

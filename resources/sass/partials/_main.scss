@@ -1,0 +1,8 @@
+.voyages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .voyage {
+        padding: 10px;
+    }
+}
